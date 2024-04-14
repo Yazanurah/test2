@@ -27,7 +27,7 @@
     "@huner2/react-tooltip": "^4.2.22",
     "@keplr-wallet/cosmos": "^0.12.0",
     "@keplr-wallet/types": "^0.12.0",
-    "@prisma/client": "4.2.0",
+    "@prisma/client": "4.16.2",
     "@stargazezone/types": "^0.9.0",
     "animate.css": "^4.1.1",
     "copy-to-clipboard": "^3.3.2",
