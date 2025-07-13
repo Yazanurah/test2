@@ -703,17 +703,17 @@
     sha.js "^2.4.11"
     unorm "^1.5.0"
 
-"@cosmjs/crypto@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@cosmjs/crypto/-/crypto-0.32.1.tgz#81202a10cbd36394a390454d954d782482537a5b"
-  integrity sha512-AsKucEg5o8evU0wXF/lDwX+ZSwCKF4bbc57nFzraHywlp3sNu4dfPPURoMrT0r7kT7wQZAy4Pdnvmm9nnCCm/Q==
+"@cosmjs/crypto@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@cosmjs/crypto/-/crypto-0.34.0.tgz#6d89d8ed29fce0e7285508eb93957350baffb3fd"
+  integrity sha512-hn8Z1RYS9bhT5mbitGhPYF5CMcln9r2BVZ7nXIpfpI7TdhUEmNnHVI2ddodxFun0uOg8kokOM6X/etD/MZ6NFA==
   dependencies:
-    "@cosmjs/encoding" "^0.32.1"
-    "@cosmjs/math" "^0.32.1"
-    "@cosmjs/utils" "^0.32.1"
+    "@cosmjs/encoding" "^0.34.0"
+    "@cosmjs/math" "^0.34.0"
+    "@cosmjs/utils" "^0.34.0"
+    "@noble/curves" "^1.9.2"
     "@noble/hashes" "^1"
     bn.js "^5.2.0"
-    elliptic "^6.5.4"
     libsodium-wrappers-sumo "^0.7.11"
 
 "@cosmjs/encoding@0.28.13", "@cosmjs/encoding@^0.28.13":
@@ -743,10 +743,10 @@
     bech32 "^1.1.4"
     readonly-date "^1.0.0"
 
-"@cosmjs/encoding@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@cosmjs/encoding/-/encoding-0.32.1.tgz#1755c96e063bebef07a3f2d32971e90fb9ea4e3a"
-  integrity sha512-x60Lfds+Eq42rVV29NaoIAson3kBhATBI3zPp7X3GJTryBc5HFHQ6L/976tE1WB2DrvkfUdWS3ayCMVOY/qm1g==
+"@cosmjs/encoding@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@cosmjs/encoding/-/encoding-0.34.0.tgz#e5856aee2a144c631189a57fe7151d1cbbc18694"
+  integrity sha512-oWUA9VTnr74GHMdMCvaaCfP0g66Y9iT7TA8vkWB1sfd+fO5FznAcMACEiF+sBE0TBoKGr02tYCJDCe9XNp2gOg==
   dependencies:
     base64-js "^1.3.0"
     bech32 "^1.1.4"
@@ -801,10 +801,10 @@
   dependencies:
     bn.js "^4.11.8"
 
-"@cosmjs/math@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.32.1.tgz#e748b1f8bb20a927f5fe8311615911ed63c7334e"
-  integrity sha512-sqJgDjPh49rxe06apzwKYLxAw4LLFKmEd4yQtHqH16BxVVUrvK5UH9TEBpUrRErdjqENowekecDCDBZspGXHNA==
+"@cosmjs/math@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.34.0.tgz#0befac4584ca981c83f55952984f095cc7048272"
+  integrity sha512-E/7dxu/hhbVEz1NNGJi+gPAadEtlk4N1ONm4CRgTnVWmPSLHNFgATF+UANAVUVAOfy6OpB0t94gAHRLYnEZYeA==
   dependencies:
     bn.js "^5.2.0"
 
@@ -928,10 +928,10 @@
   resolved "https://registry.npmjs.org/@cosmjs/utils/-/utils-0.24.1.tgz"
   integrity sha512-VA3WFx1lMFb7esp9BqHWkDgMvHoA3D9w+uDRvWhVRpUpDc7RYHxMbWExASjz+gNblTCg556WJGzF64tXnf9tdQ==
 
-"@cosmjs/utils@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@cosmjs/utils/-/utils-0.32.1.tgz#0f7f7cbbe38c4a7fd852e698bad4d811fba5f80a"
-  integrity sha512-PV9pa0cVPFCNgfQKEOc6RcNFHr5wMQLcDqWoo/ekIoj1AfzAaqnojdnL80u1C9Qf+vOfRGIXubqiU7Tl7QZuig==
+"@cosmjs/utils@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@cosmjs/utils/-/utils-0.34.0.tgz#d4212059d814a55a6bd67329d5d4d8326a7225fc"
+  integrity sha512-yj8ET2NKCHTFodo8guyEFvE3ZAu1eyp/LiH/oyesNoR6g2Se+aG4ViMMrD4ApoGf2bRtQTC4JWWODQSNUVteJg==
 
 "@cosmos-wallet/core@^0.10.0":
   version "0.10.0"
@@ -1761,6 +1761,18 @@
   version "14.0.4"
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.0.4.tgz#e74892f1a9ccf41d3bf5979ad6d3d77c07b9cba1"
   integrity sha512-yEh2+R8qDlDCjxVpzOTEpBLQTEFAcP2A8fUFLaWNap9GitYKkKv1//y2S6XY6zsR4rCOPRpU7plYDR+az2n30A==
+
+"@noble/curves@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@noble/curves/-/curves-1.9.2.tgz#73388356ce733922396214a933ff7c95afcef911"
+  integrity sha512-HxngEd2XUcg9xi20JkwlLCtYwfoFw4JGkuZpT+WlsPD4gB/cxkvTD8fSsoAnphGZhFdZYKeQIPCuFlWPm1uE0g==
+  dependencies:
+    "@noble/hashes" "1.8.0"
+
+"@noble/hashes@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.8.0.tgz#cee43d801fcef9644b11b8194857695acd5f815a"
+  integrity sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==
 
 "@noble/hashes@^1", "@noble/hashes@^1.0.0":
   version "1.1.2"
